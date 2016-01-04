@@ -1,5 +1,5 @@
-### Installation (Blade Laravel 5.1)
-The package can be installed via Composer by requiring the "philo/laravel-blade": "3.*" package in your project's composer.json.
+### Installation (Blade Laravel >= 5.1)
+The package can be installed via Composer by requiring the "eti/laravel-blade": "3.*" package in your project's composer.json.
 
 ```json
 {
@@ -10,7 +10,7 @@ The package can be installed via Composer by requiring the "philo/laravel-blade"
 ```
 
 ### Installation (Blade Laravel 4)
-The package can be installed via Composer by requiring the "philo/laravel-blade": "2.*" package in your project's composer.json.
+The package can be installed via Composer by requiring the "eti/laravel-blade": "2.*" package in your project's composer.json.
 
 ```json
 {
@@ -49,4 +49,4 @@ echo $blade->view()->make('hello')->render();
 ```
 
 You can use all blade features as described in the Laravel 5 documentation:
-http://laravel.com/docs/templates#blade-templating
+https://laravel.com/docs/5.1/blade
