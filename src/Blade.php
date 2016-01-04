@@ -1,4 +1,5 @@
-<?php namespace ETI\Blade;
+<?php
+namespace ETI\BLADE;
 
 use Illuminate\Container\Container;
 use Illuminate\Events\Dispatcher;

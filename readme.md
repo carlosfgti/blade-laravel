@@ -1,24 +1,14 @@
-### Installation (Blade Laravel >= 5.1)
-The package can be installed via Composer by requiring the "eti/laravel-blade": "3.*" package in your project's composer.json.
+### Installation
+Install package composer "composer require eti/laravel-blade"
 
 ```json
 {
 	"require": {
-	    "eti/laravel-blade": "3.*"
+	    "eti/laravel-blade": "^1.0"
 	}
 }
 ```
 
-### Installation (Blade Laravel 4)
-The package can be installed via Composer by requiring the "eti/laravel-blade": "2.*" package in your project's composer.json.
-
-```json
-{
-	"require": {
-	    "eti/laravel-blade": "2.*"
-	}
-}
-```
 
 ### Usage
 
@@ -39,9 +29,9 @@ The package can be installed via Composer by requiring the "eti/laravel-blade": 
 
 require 'vendor/autoload.php';
 
-use ETI\Blade\Blade;
+use ETI\BLADE\Blade;
 
-$views = __DIR__ . '/views';
+$views = __DIR__ . '/app/views';
 $cache = __DIR__ . '/cache';
 
 $blade = new Blade($views, $cache);
