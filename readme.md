@@ -1,5 +1,5 @@
 ### Installation
-Install package composer "composer require eti/laravel-blade" <br>
+Install package composer "composer require eti/laravel-blade" <br><br><br>
 composer.json:
 
 ```json
