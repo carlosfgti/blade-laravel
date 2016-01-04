@@ -1,0 +1,21 @@
+{
+    "name": "eti/laravel-blade",
+    "description": "Use basic blade laravel",
+    "keywords": ["laravel", "blade", "template blade"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Ferreira",
+            "email": "carlos@especializati.com.br"
+        }
+    ],
+    "require": {
+        "illuminate/view": "~5",
+        "illuminate/events": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ETI\\BLADE\\": "src"
+        }
+    }
+}
